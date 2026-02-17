@@ -1,0 +1,5 @@
+.header__image {
+  width: 387px;
+  height: 500px;
+  object-fit: cover;
+}
