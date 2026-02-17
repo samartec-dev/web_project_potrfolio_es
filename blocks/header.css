@@ -5,8 +5,9 @@
 .header__content {
   display: grid;
   grid-template-columns: 1fr 387px;
-  column-gap: 40px;
+  column-gap: 20px;
   align-items: start;
+  margin-bottom: 100px;
 }
 
 .header__info {
@@ -17,8 +18,48 @@
   padding-top: 40px;
 }
 
+.header__name {
+  margin: 0 0 15px;
+  font-family: "Archivo", Arial, sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 78px;
+}
+
+.header__name-line {
+  display: block;
+}
+
+.header__subtitle {
+  margin: 0 0 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header__description {
+  margin: 0 0 30px;
+}
+
 .header__image {
   width: 100%;
   height: 500px;
   object-fit: cover;
+}
+
+.header__nav {
+  display: flex;
+  gap: 30px;
+}
+
+.header__nav-link {
+  display: inline-block;
+  font-weight: 600;
+  position: relative;
+}
+
+.header__nav-link::after {
+  content: "";
+  display: block;
+  height: 5px;
+  margin-top: 5px;
+  background: linear-gradient(90deg, #4c1a97 0%, #6d6dff 100%);
 }
