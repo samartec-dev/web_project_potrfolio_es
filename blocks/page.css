@@ -61,6 +61,15 @@ body {
   color: #ffffff;
 }
 
+/* Shared horizontal page gutters (desktop 1440) */
+.header__content,
+.skills__content,
+.projects__content,
+.footer__content {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
 img {
   display: block;
   max-width: 100%;
