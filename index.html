@@ -14,6 +14,200 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
-    <h1>Portafolio</h1>
+    <header class="header">
+      <div class="header__content">
+        <h1 class="header__name">Samuel Sánchez</h1>
+        <p class="header__subtitle">
+          Desarrollador web junior | HTML, CSS, JavaScript
+        </p>
+
+        <div class="header__hero">
+          <div class="header__hero-text">
+            <p class="header__description">
+              Descripción breve sobre ti y tu enfoque. Aquí puedes mencionar tu
+              perfil (por ejemplo: desarrollo web, proyectos, habilidades y
+              tecnologías).
+            </p>
+
+            <nav class="header__nav" aria-label="Enlaces principales">
+              <a class="header__nav-link" href="#" download> Descargar CV </a>
+              <a
+                class="header__nav-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Enlace a GitHub
+              </a>
+              <a class="header__nav-link" href="#contact">Hablemos</a>
+            </nav>
+          </div>
+
+          <img
+            class="header__image"
+            src="./images/profile.png"
+            alt="Foto de perfil de Samuel Sánchez"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="skills" id="skills">
+        <div class="skills__content">
+          <h2 class="skills__title">Habilidades y herramientas</h2>
+
+          <ul class="skills__list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">Git / GitHub</li>
+            <li class="skills__item">Figma</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="projects__content">
+          <h2 class="projects__title">Proyectos destacados</h2>
+
+          <ul class="projects__list">
+            <li class="project-card">
+              <img
+                class="project-card__image"
+                src="./images/project-coffeeshop.png"
+                alt="Captura del proyecto Página web de una cafetería"
+              />
+
+              <div class="project-card__body">
+                <h3 class="project-card__title">Página web de una cafetería</h3>
+
+                <p class="project-card__text">
+                  Desarrollo de una landing page responsiva para una cafetería
+                  siguiendo un brief de diseño. Incluye estructura semántica,
+                  maquetación con Flexbox, creación de secciones nuevas y un
+                  formulario de contacto funcional.
+                </p>
+
+                <p class="project-card__text">
+                  Logro: Implementé desde cero el diseño completo de la página,
+                  organicé el proyecto con buenas prácticas y publiqué la
+                  versión final utilizando GitHub Pages.
+                </p>
+
+                <div class="project-card__links">
+                  <a
+                    class="project-card__link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo en vivo
+                  </a>
+                  <a
+                    class="project-card__link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-card">
+              <img
+                class="project-card__image"
+                src="./images/project-placeholder.png"
+                alt="Captura del proyecto Mi proyecto"
+              />
+
+              <div class="project-card__body">
+                <h3 class="project-card__title">Mi proyecto</h3>
+
+                <p class="project-card__text">Descripción del proyecto</p>
+
+                <div class="project-card__links">
+                  <a
+                    class="project-card__link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo en vivo
+                  </a>
+                  <a
+                    class="project-card__link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer__content">
+        <h2 class="footer__title">Contacto</h2>
+
+        <a class="footer__email" href="mailto:student@tripleten.com">
+          student@tripleten.com
+        </a>
+
+        <ul class="footer__social">
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              Facebook
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              Instagram
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X"
+            >
+              X
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
