@@ -94,3 +94,11 @@ h6,
 p {
   margin: 0;
 }
+
+/* Global section titles (H2) */
+h2 {
+  font-family: "Archivo", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+}
