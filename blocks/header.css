@@ -68,6 +68,7 @@
   display: inline-block;
   font-weight: 600;
   position: relative;
+  transition: color 0.2s ease;
 }
 
 .header__nav-link::after {

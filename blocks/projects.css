@@ -43,3 +43,33 @@
   width: 40px;
   height: 40px;
 }
+
+.project-card__body {
+  background-color: #1c1c1c;
+  padding: 30px;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  margin: 0 0 20px;
+}
+
+.project-card__links {
+  margin-top: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.project-card__link-icon {
+  transition: opacity 0.2s ease;
+}
+
+.project-card__link:hover .project-card__link-icon,
+.project-card__link:focus-visible .project-card__link-icon {
+  opacity: 0.5;
+}
